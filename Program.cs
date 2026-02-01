@@ -280,32 +280,32 @@
 //}
 #endregion
 #region Matrix Multiplication 
-using System;
-class Program
-{
-    static void Main()
-    {
-        int[,] arr = new int[2, 3], matrix = new int[3, 2];
+//using System;
+//class Program
+//{
+//    static void Main()
+//    {
+//        int[,] arr = new int[2, 3], matrix = new int[3, 2];
 
-        for (int i = 0; i < 2; i++){
-            for (int j = 0; j < 3; j++)
-              arr[i, j] = int.Parse(Console.ReadLine());
-       }
+//        for (int i = 0; i < 2; i++){
+//            for (int j = 0; j < 3; j++)
+//              arr[i, j] = int.Parse(Console.ReadLine());
+//       }
 
-        for (int i = 0; i < 3; i++){
-            for (int j = 0; j < 2; j++)
-                matrix[i, j] = int.Parse(Console.ReadLine());
-            }
+//        for (int i = 0; i < 3; i++){
+//            for (int j = 0; j < 2; j++)
+//                matrix[i, j] = int.Parse(Console.ReadLine());
+//            }
        
-        for (int i = 0; i < 2; i++){
-            Console.WriteLine();
-            for (int j = 0; j < 2; j++){
-                int ele = 0;
-                for (int k = 0; k < 3; k++) ele += arr[i, k] * matrix[k, j];
+//        for (int i = 0; i < 2; i++){
+//            Console.WriteLine();
+//            for (int j = 0; j < 2; j++){
+//                int ele = 0;
+//                for (int k = 0; k < 3; k++) ele += arr[i, k] * matrix[k, j];
                     
-                Console.Write(ele + " ");
-            }
-        }
-    }
-}
+//                Console.Write(ele + " ");
+//            }
+//        }
+//    }
+//}
 #endregion
